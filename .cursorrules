@@ -1,0 +1,30 @@
+# Instructions 
+I want to develop a website that enables seamless audio sharing between devices connected to the same hotspot. The audio can originate from any system source (files, websites, apps, YouTube, movies, etc.), and playback must be synchronized in real time across all connected devices.
+
+Key Features:
+
+One device sends a request to nearby devices (connected via hotspot & on the website). Upon acceptance, audio sharing begins.
+
+Each session assigns a temporary random name to devices, which is recycled when a user leaves.
+
+Dashboard UI with features:
+
+Add / Remove / Leave / Join New Session
+
+Device List & Status ("What’s On")
+
+Host Controls (Play, Pause, Sync Adjustments)
+
+Real-time sync mechanism using timestamps & latency correction.
+
+Hotspot-based discovery for fast pairing without an internet connection.
+
+
+
+
+Use next js with app directory and with api directory for backend . api directory must be inside app directory  
+
+I assume that there would me no need for environment variable,api, and database , If there are any environment variable,api, and database then let me know how to setup them and where to ues . 
+
+# Important 
+don't make new (next js project folder) just use this root thing
